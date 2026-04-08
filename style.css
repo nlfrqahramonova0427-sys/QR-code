@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+
+.container {
+    max-width: 360px;
+    margin: 0 auto;
+   
+
+}
+.card {
+    background-color: white;
+    padding: 22px;
+    border-radius: 20px;
+    height: 460px;
+    text-align: center;
+    margin: 0 1em;
+}
+
+.card img {
+   width: 100%;
+   border-radius: 10px;
+}
+
+.text p{
+    text-align: center;
+    color: hsl(216, 15%, 48%);
+    margin-top: 18px;
+    word-spacing: 6px;
+
+}
+
+.text h2{
+    text-align: center;
+    color:hsl(218, 44%, 22%);
+    margin-top: 20px;
+    
+}
